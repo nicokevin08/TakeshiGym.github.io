@@ -1,8 +1,8 @@
 
 let imagenes = [
-    "imagen1.jpg",
-    "imagen2.jpg",
-    "imagen3.jpg",
+    "imagenes/imagen1.jpg",
+    "imagenes/imagen2.jpg",
+    "imagenes/imagen3.jpg",
 ];
 
 
