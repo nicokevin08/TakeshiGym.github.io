@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Cadelago Nicolás" />
+    <meta name="keywords" content="gym, gimnasio, Takeshi, rutina," />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="icon" href="imagenes/logo.png" />
+    <title>Takeshi Gym</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <img class="nav_img-logo" src="imagenes/logo.png" />
+      <div class="nav_contenedor">
+        <ul class="nav_ul">
+          <li class="nav_ul-item">
+            <a class="nav_ul-link" href="index.html">Home</a>
+          </li>
+          <li class="nav_ul-item">
+            <a class="nav_ul-link" href="Galery.html">Galery</a>
+          </li>
+          <li class="nav_ul-item">
+            <a class="nav_ul-link" href="Contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="form">
+      <h2 class="h2_form">Formulario</h2>
+      <form class="form_form" onsubmit="return validar()">
+        <div class="form_input-cotainer">
+          <label
+            >Nombre
+            <input id="txtNombre" type="text" placeholder="Federico" />
+          </label>
+        </div>
+        <div class="form_input-cotainer">
+          <label
+            >Telefono
+            <input id="txtTelefono" type="text" placeholder="2664057788" />
+          </label>
+        </div>
+        <div class="form_input-cotainer">
+          <label
+            >Mail
+            <input id="txtCorreo" type="text" placeholder="fede@gmail.com" />
+          </label>
+        </div>
+        <div class="form_input-cotainer">
+          <label
+            >Mensaje
+            <textarea
+              id="txtConsulta"
+              placeholder="Deja aquí tu mensaje..."
+            ></textarea>
+          </label>
+        </div>
+        <div class="form_input-cotainer">
+          <label>
+            <input type="submit" />
+            <button type="reset">Borrar Campos</button>
+          </label>
+        </div>
+      </form>
+      <div class="bajo_form">
+        <div class="centrar-boton">
+          <ul id="ltaErrores"></ul>
+          <!--Lista de herrores-->
+          <ul id="ltaMensajes"></ul>
+          <!--Lista de mensajes-->
+          <ul id="ltaErrores"></ul>
+          <!--Lista de herrores-->
+          <ul id="ltaMensajes"></ul>
+          <!--Lista de mensajes-->
+        </div>
+      </div>
+      <script defer src="javaformulario.js"></script>
+    </section>
+  </body>
+</html>

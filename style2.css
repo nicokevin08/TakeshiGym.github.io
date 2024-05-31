@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+body,
+main,
+div,
+ul,
+nav,
+header,
+a,
+li,
+label,
+footer,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #261111;
+  color: #fff;
+}
+.nav {
+  background: radial-gradient(#301616 20%, #000000);
+  height: 90px;
+  color: #fff;
+  text-shadow: 0 0 20px #fff;
+  border: 2px solid #fff;
+  border-left: 0;
+  border-right: 0;
+  display: flex;
+  justify-content: end;
+  position: sticky;
+  flex-wrap: wrap;
+  top: 0;
+  z-index: 2;
+}
+.nav_ul {
+  margin: 0;
+  display: flex;
+
+  position: relative;
+  right: 150px;
+}
+
+.nav_ul-item {
+  list-style: none;
+  font-size: 33px;
+  display: flex;
+}
+.nav_ul-link {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  margin: 30px;
+  bottom: 5px;
+}
+.nav_img-logo {
+  width: 95px;
+  position: relative;
+  bottom: 13px;
+  right: 110vh;
+}
+
+.h2_form {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.form {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+  font-size: 30px;
+}
+
+.form_form {
+  padding: 12px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.form_input-cotainer :is(input, textarea, button) {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  margin: 4px;
+  border-top: none;
+  border-left: none;
+  box-shadow: 0 0 9px #fff;
+}
+
+.form_input-cotainer textarea {
+  resize: none;
+  min-height: 180px;
+  font-family: inherit;
+}
+.form_input-cotainer input[type="submit"],
+button[type="reset"] {
+  padding: 12px;
+  background-color: #4e2b2b;
+  color: #fff;
+}
+
+.bajo_form {
+  box-shadow: 0 0 9px #fff;
+  width: 50%;
+  height: 35vh;
+  color: #fff;
+  background-color: #240505;
+}
+
+.bajo_form ul {
+  position: relative;
+  top: 10px;
+  left: 5vh;
+  width: 90vh;
+}
